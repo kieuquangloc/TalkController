@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E78A19A1A172CC200408F67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E78A1991A172CC200408F67 /* main.m */; };
+		2E78A1A51A172CC200408F67 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E78A1A41A172CC200408F67 /* Images.xcassets */; };
+		2E78A1A81A172CC200408F67 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E78A1A61A172CC200408F67 /* LaunchScreen.xib */; };
+		2E78A1B41A172CC200408F67 /* TalkControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E78A1B31A172CC200408F67 /* TalkControllerTests.m */; };
+		2E78A1BE1A172CE400408F67 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E78A1BD1A172CE400408F67 /* Main_iPhone.storyboard */; };
+		2E78A1C41A172D4500408F67 /* AcousticModelEnglish.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2E78A1C01A172D4500408F67 /* AcousticModelEnglish.bundle */; };
+		2E78A1C51A172D4500408F67 /* AcousticModelSpanish.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2E78A1C11A172D4500408F67 /* AcousticModelSpanish.bundle */; };
+		2E78A1C61A172D4500408F67 /* OpenEars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E78A1C21A172D4500408F67 /* OpenEars.framework */; };
+		2E78A1C71A172D4600408F67 /* Slt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E78A1C31A172D4500408F67 /* Slt.framework */; };
+		2E78A1D11A172D9B00408F67 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E78A1CC1A172D9B00408F67 /* HomeViewController.m */; };
+		2E78A1D21A172D9B00408F67 /* PlayVoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E78A1CE1A172D9B00408F67 /* PlayVoiceViewController.m */; };
+		2E78A1D31A172D9B00408F67 /* SecurityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E78A1D01A172D9B00408F67 /* SecurityViewController.m */; };
+		2E78A1D61A172DA700408F67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E78A1D51A172DA700408F67 /* AppDelegate.m */; };
+		2E78A1FA1A172DED00408F67 /* button Bacckground.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E78A1D81A172DED00408F67 /* button Bacckground.png */; };
+		2E78A1FB1A172DED00408F67 /* Default copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E78A1D91A172DED00408F67 /* Default copy.png */; };
+		2E78A1FC1A172DED00408F67 /* flag icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E78A1DA1A172DED00408F67 /* flag icon.png */; };
+		2E78A1FD1A172DED00408F67 /* fly button.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E78A1DB1A172DED00408F67 /* fly button.png */; };
+		2E78A1FE1A172DED00408F67 /* front 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E78A1DC1A172DED00408F67 /* front 1.png */; };
+		2E78A1FF1A172DED00408F67 /* front 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E78A1DD1A172DED00408F67 /* front 2.png */; };
+		2E78A2001A172DED00408F67 /* imageIn.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E78A1DE1A172DED00408F67 /* imageIn.png */; };
+		2E78A2011A172DED00408F67 /* land 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E78A1DF1A172DED00408F67 /* land 1.png */; };
+		2E78A2021A172DED00408F67 /* land 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E78A1E01A172DED00408F67 /* land 2.png */; };
+		2E78A2031A172DED00408F67 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E78A1E11A172DED00408F67 /* Logo.png */; };
+		2E78A2041A172DED00408F67 /* quit button.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E78A1E21A172DED00408F67 /* quit button.png */; };
+		2E78A2051A172DED00408F67 /* shadow 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E78A1E31A172DED00408F67 /* shadow 1.png */; };
+		2E78A2061A172DED00408F67 /* shadow 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E78A1E41A172DED00408F67 /* shadow 2.png */; };
+		2E78A2071A172DED00408F67 /* sky icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E78A1E51A172DED00408F67 /* sky icon.png */; };
+		2E78A2081A172DED00408F67 /* Smile icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E78A1E61A172DED00408F67 /* Smile icon.png */; };
+		2E78A2091A172DED00408F67 /* star 1 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E78A1E71A172DED00408F67 /* star 1 copy.png */; };
+		2E78A20A1A172DED00408F67 /* star 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E78A1E81A172DED00408F67 /* star 1.png */; };
+		2E78A20B1A172DED00408F67 /* star 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E78A1E91A172DED00408F67 /* star 2.png */; };
+		2E78A20C1A172DED00408F67 /* TextField 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E78A1EA1A172DED00408F67 /* TextField 2.png */; };
+		2E78A20D1A172DED00408F67 /* TextField copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E78A1EB1A172DED00408F67 /* TextField copy.png */; };
+		2E78A20E1A172DED00408F67 /* whell 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E78A1EC1A172DED00408F67 /* whell 1.png */; };
+		2E78A20F1A172DED00408F67 /* whell 10.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E78A1ED1A172DED00408F67 /* whell 10.png */; };
+		2E78A2101A172DED00408F67 /* whell 11.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E78A1EE1A172DED00408F67 /* whell 11.png */; };
+		2E78A2111A172DED00408F67 /* whell 12.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E78A1EF1A172DED00408F67 /* whell 12.png */; };
+		2E78A2121A172DED00408F67 /* whell 13.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E78A1F01A172DED00408F67 /* whell 13.png */; };
+		2E78A2131A172DED00408F67 /* whell 14.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E78A1F11A172DED00408F67 /* whell 14.png */; };
+		2E78A2141A172DED00408F67 /* Whell 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E78A1F21A172DED00408F67 /* Whell 2.png */; };
+		2E78A2151A172DED00408F67 /* Whell 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E78A1F31A172DED00408F67 /* Whell 3.png */; };
+		2E78A2161A172DED00408F67 /* whell 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E78A1F41A172DED00408F67 /* whell 4.png */; };
+		2E78A2171A172DED00408F67 /* whell 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E78A1F51A172DED00408F67 /* whell 5.png */; };
+		2E78A2181A172DED00408F67 /* whell 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E78A1F61A172DED00408F67 /* whell 6.png */; };
+		2E78A2191A172DED00408F67 /* whell 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E78A1F71A172DED00408F67 /* whell 7.png */; };
+		2E78A21A1A172DED00408F67 /* whell 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E78A1F81A172DED00408F67 /* whell 8.png */; };
+		2E78A21B1A172DED00408F67 /* whell 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E78A1F91A172DED00408F67 /* whell 9.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E78A1AE1A172CC200408F67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E78A18C1A172CC200408F67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E78A1931A172CC200408F67;
+			remoteInfo = TalkController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E78A1941A172CC200408F67 /* TalkController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalkController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E78A1981A172CC200408F67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E78A1991A172CC200408F67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E78A1A41A172CC200408F67 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2E78A1A71A172CC200408F67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2E78A1AD1A172CC200408F67 /* TalkControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalkControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E78A1B21A172CC200408F67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E78A1B31A172CC200408F67 /* TalkControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TalkControllerTests.m; sourceTree = "<group>"; };
+		2E78A1BD1A172CE400408F67 /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
+		2E78A1C01A172D4500408F67 /* AcousticModelEnglish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AcousticModelEnglish.bundle; sourceTree = "<group>"; };
+		2E78A1C11A172D4500408F67 /* AcousticModelSpanish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AcousticModelSpanish.bundle; sourceTree = "<group>"; };
+		2E78A1C21A172D4500408F67 /* OpenEars.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenEars.framework; sourceTree = "<group>"; };
+		2E78A1C31A172D4500408F67 /* Slt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Slt.framework; sourceTree = "<group>"; };
+		2E78A1CB1A172D9B00408F67 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		2E78A1CC1A172D9B00408F67 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		2E78A1CD1A172D9B00408F67 /* PlayVoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayVoiceViewController.h; sourceTree = "<group>"; };
+		2E78A1CE1A172D9B00408F67 /* PlayVoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayVoiceViewController.m; sourceTree = "<group>"; };
+		2E78A1CF1A172D9B00408F67 /* SecurityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecurityViewController.h; sourceTree = "<group>"; };
+		2E78A1D01A172D9B00408F67 /* SecurityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecurityViewController.m; sourceTree = "<group>"; };
+		2E78A1D41A172DA700408F67 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2E78A1D51A172DA700408F67 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2E78A1D81A172DED00408F67 /* button Bacckground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button Bacckground.png"; sourceTree = "<group>"; };
+		2E78A1D91A172DED00408F67 /* Default copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default copy.png"; sourceTree = "<group>"; };
+		2E78A1DA1A172DED00408F67 /* flag icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flag icon.png"; sourceTree = "<group>"; };
+		2E78A1DB1A172DED00408F67 /* fly button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fly button.png"; sourceTree = "<group>"; };
+		2E78A1DC1A172DED00408F67 /* front 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "front 1.png"; sourceTree = "<group>"; };
+		2E78A1DD1A172DED00408F67 /* front 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "front 2.png"; sourceTree = "<group>"; };
+		2E78A1DE1A172DED00408F67 /* imageIn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imageIn.png; sourceTree = "<group>"; };
+		2E78A1DF1A172DED00408F67 /* land 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "land 1.png"; sourceTree = "<group>"; };
+		2E78A1E01A172DED00408F67 /* land 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "land 2.png"; sourceTree = "<group>"; };
+		2E78A1E11A172DED00408F67 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
+		2E78A1E21A172DED00408F67 /* quit button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quit button.png"; sourceTree = "<group>"; };
+		2E78A1E31A172DED00408F67 /* shadow 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shadow 1.png"; sourceTree = "<group>"; };
+		2E78A1E41A172DED00408F67 /* shadow 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shadow 2.png"; sourceTree = "<group>"; };
+		2E78A1E51A172DED00408F67 /* sky icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sky icon.png"; sourceTree = "<group>"; };
+		2E78A1E61A172DED00408F67 /* Smile icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Smile icon.png"; sourceTree = "<group>"; };
+		2E78A1E71A172DED00408F67 /* star 1 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star 1 copy.png"; sourceTree = "<group>"; };
+		2E78A1E81A172DED00408F67 /* star 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star 1.png"; sourceTree = "<group>"; };
+		2E78A1E91A172DED00408F67 /* star 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star 2.png"; sourceTree = "<group>"; };
+		2E78A1EA1A172DED00408F67 /* TextField 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TextField 2.png"; sourceTree = "<group>"; };
+		2E78A1EB1A172DED00408F67 /* TextField copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TextField copy.png"; sourceTree = "<group>"; };
+		2E78A1EC1A172DED00408F67 /* whell 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whell 1.png"; sourceTree = "<group>"; };
+		2E78A1ED1A172DED00408F67 /* whell 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whell 10.png"; sourceTree = "<group>"; };
+		2E78A1EE1A172DED00408F67 /* whell 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whell 11.png"; sourceTree = "<group>"; };
+		2E78A1EF1A172DED00408F67 /* whell 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whell 12.png"; sourceTree = "<group>"; };
+		2E78A1F01A172DED00408F67 /* whell 13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whell 13.png"; sourceTree = "<group>"; };
+		2E78A1F11A172DED00408F67 /* whell 14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whell 14.png"; sourceTree = "<group>"; };
+		2E78A1F21A172DED00408F67 /* Whell 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Whell 2.png"; sourceTree = "<group>"; };
+		2E78A1F31A172DED00408F67 /* Whell 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Whell 3.png"; sourceTree = "<group>"; };
+		2E78A1F41A172DED00408F67 /* whell 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whell 4.png"; sourceTree = "<group>"; };
+		2E78A1F51A172DED00408F67 /* whell 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whell 5.png"; sourceTree = "<group>"; };
+		2E78A1F61A172DED00408F67 /* whell 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whell 6.png"; sourceTree = "<group>"; };
+		2E78A1F71A172DED00408F67 /* whell 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whell 7.png"; sourceTree = "<group>"; };
+		2E78A1F81A172DED00408F67 /* whell 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whell 8.png"; sourceTree = "<group>"; };
+		2E78A1F91A172DED00408F67 /* whell 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whell 9.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E78A1911A172CC200408F67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E78A1C71A172D4600408F67 /* Slt.framework in Frameworks */,
+				2E78A1C61A172D4500408F67 /* OpenEars.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E78A1AA1A172CC200408F67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E78A18B1A172CC200408F67 = {
+			isa = PBXGroup;
+			children = (
+				2E78A1D71A172DED00408F67 /* IMAGE */,
+				2E78A1BF1A172D4500408F67 /* Framework */,
+				2E78A1961A172CC200408F67 /* TalkController */,
+				2E78A1B01A172CC200408F67 /* TalkControllerTests */,
+				2E78A1951A172CC200408F67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E78A1951A172CC200408F67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E78A1941A172CC200408F67 /* TalkController.app */,
+				2E78A1AD1A172CC200408F67 /* TalkControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E78A1961A172CC200408F67 /* TalkController */ = {
+			isa = PBXGroup;
+			children = (
+				2E78A1D41A172DA700408F67 /* AppDelegate.h */,
+				2E78A1D51A172DA700408F67 /* AppDelegate.m */,
+				2E78A1CF1A172D9B00408F67 /* SecurityViewController.h */,
+				2E78A1D01A172D9B00408F67 /* SecurityViewController.m */,
+				2E78A1CB1A172D9B00408F67 /* HomeViewController.h */,
+				2E78A1CC1A172D9B00408F67 /* HomeViewController.m */,
+				2E78A1CD1A172D9B00408F67 /* PlayVoiceViewController.h */,
+				2E78A1CE1A172D9B00408F67 /* PlayVoiceViewController.m */,
+				2E78A1BD1A172CE400408F67 /* Main_iPhone.storyboard */,
+				2E78A1971A172CC200408F67 /* Supporting Files */,
+			);
+			path = TalkController;
+			sourceTree = "<group>";
+		};
+		2E78A1971A172CC200408F67 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E78A1A41A172CC200408F67 /* Images.xcassets */,
+				2E78A1A61A172CC200408F67 /* LaunchScreen.xib */,
+				2E78A1981A172CC200408F67 /* Info.plist */,
+				2E78A1991A172CC200408F67 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E78A1B01A172CC200408F67 /* TalkControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E78A1B31A172CC200408F67 /* TalkControllerTests.m */,
+				2E78A1B11A172CC200408F67 /* Supporting Files */,
+			);
+			path = TalkControllerTests;
+			sourceTree = "<group>";
+		};
+		2E78A1B11A172CC200408F67 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E78A1B21A172CC200408F67 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E78A1BF1A172D4500408F67 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				2E78A1C01A172D4500408F67 /* AcousticModelEnglish.bundle */,
+				2E78A1C11A172D4500408F67 /* AcousticModelSpanish.bundle */,
+				2E78A1C21A172D4500408F67 /* OpenEars.framework */,
+				2E78A1C31A172D4500408F67 /* Slt.framework */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		2E78A1D71A172DED00408F67 /* IMAGE */ = {
+			isa = PBXGroup;
+			children = (
+				2E78A1D81A172DED00408F67 /* button Bacckground.png */,
+				2E78A1D91A172DED00408F67 /* Default copy.png */,
+				2E78A1DA1A172DED00408F67 /* flag icon.png */,
+				2E78A1DB1A172DED00408F67 /* fly button.png */,
+				2E78A1DC1A172DED00408F67 /* front 1.png */,
+				2E78A1DD1A172DED00408F67 /* front 2.png */,
+				2E78A1DE1A172DED00408F67 /* imageIn.png */,
+				2E78A1DF1A172DED00408F67 /* land 1.png */,
+				2E78A1E01A172DED00408F67 /* land 2.png */,
+				2E78A1E11A172DED00408F67 /* Logo.png */,
+				2E78A1E21A172DED00408F67 /* quit button.png */,
+				2E78A1E31A172DED00408F67 /* shadow 1.png */,
+				2E78A1E41A172DED00408F67 /* shadow 2.png */,
+				2E78A1E51A172DED00408F67 /* sky icon.png */,
+				2E78A1E61A172DED00408F67 /* Smile icon.png */,
+				2E78A1E71A172DED00408F67 /* star 1 copy.png */,
+				2E78A1E81A172DED00408F67 /* star 1.png */,
+				2E78A1E91A172DED00408F67 /* star 2.png */,
+				2E78A1EA1A172DED00408F67 /* TextField 2.png */,
+				2E78A1EB1A172DED00408F67 /* TextField copy.png */,
+				2E78A1EC1A172DED00408F67 /* whell 1.png */,
+				2E78A1ED1A172DED00408F67 /* whell 10.png */,
+				2E78A1EE1A172DED00408F67 /* whell 11.png */,
+				2E78A1EF1A172DED00408F67 /* whell 12.png */,
+				2E78A1F01A172DED00408F67 /* whell 13.png */,
+				2E78A1F11A172DED00408F67 /* whell 14.png */,
+				2E78A1F21A172DED00408F67 /* Whell 2.png */,
+				2E78A1F31A172DED00408F67 /* Whell 3.png */,
+				2E78A1F41A172DED00408F67 /* whell 4.png */,
+				2E78A1F51A172DED00408F67 /* whell 5.png */,
+				2E78A1F61A172DED00408F67 /* whell 6.png */,
+				2E78A1F71A172DED00408F67 /* whell 7.png */,
+				2E78A1F81A172DED00408F67 /* whell 8.png */,
+				2E78A1F91A172DED00408F67 /* whell 9.png */,
+			);
+			name = IMAGE;
+			path = TalkController/whell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E78A1931A172CC200408F67 /* TalkController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E78A1B71A172CC200408F67 /* Build configuration list for PBXNativeTarget "TalkController" */;
+			buildPhases = (
+				2E78A1901A172CC200408F67 /* Sources */,
+				2E78A1911A172CC200408F67 /* Frameworks */,
+				2E78A1921A172CC200408F67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TalkController;
+			productName = TalkController;
+			productReference = 2E78A1941A172CC200408F67 /* TalkController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E78A1AC1A172CC200408F67 /* TalkControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E78A1BA1A172CC200408F67 /* Build configuration list for PBXNativeTarget "TalkControllerTests" */;
+			buildPhases = (
+				2E78A1A91A172CC200408F67 /* Sources */,
+				2E78A1AA1A172CC200408F67 /* Frameworks */,
+				2E78A1AB1A172CC200408F67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E78A1AF1A172CC200408F67 /* PBXTargetDependency */,
+			);
+			name = TalkControllerTests;
+			productName = TalkControllerTests;
+			productReference = 2E78A1AD1A172CC200408F67 /* TalkControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E78A18C1A172CC200408F67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = QuangLoc;
+				TargetAttributes = {
+					2E78A1931A172CC200408F67 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					2E78A1AC1A172CC200408F67 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 2E78A1931A172CC200408F67;
+					};
+				};
+			};
+			buildConfigurationList = 2E78A18F1A172CC200408F67 /* Build configuration list for PBXProject "TalkController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E78A18B1A172CC200408F67;
+			productRefGroup = 2E78A1951A172CC200408F67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E78A1931A172CC200408F67 /* TalkController */,
+				2E78A1AC1A172CC200408F67 /* TalkControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E78A1921A172CC200408F67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E78A1FA1A172DED00408F67 /* button Bacckground.png in Resources */,
+				2E78A2041A172DED00408F67 /* quit button.png in Resources */,
+				2E78A2151A172DED00408F67 /* Whell 3.png in Resources */,
+				2E78A2111A172DED00408F67 /* whell 12.png in Resources */,
+				2E78A1BE1A172CE400408F67 /* Main_iPhone.storyboard in Resources */,
+				2E78A2131A172DED00408F67 /* whell 14.png in Resources */,
+				2E78A1FE1A172DED00408F67 /* front 1.png in Resources */,
+				2E78A1C51A172D4500408F67 /* AcousticModelSpanish.bundle in Resources */,
+				2E78A2071A172DED00408F67 /* sky icon.png in Resources */,
+				2E78A2061A172DED00408F67 /* shadow 2.png in Resources */,
+				2E78A20E1A172DED00408F67 /* whell 1.png in Resources */,
+				2E78A1FC1A172DED00408F67 /* flag icon.png in Resources */,
+				2E78A2101A172DED00408F67 /* whell 11.png in Resources */,
+				2E78A2141A172DED00408F67 /* Whell 2.png in Resources */,
+				2E78A1C41A172D4500408F67 /* AcousticModelEnglish.bundle in Resources */,
+				2E78A20F1A172DED00408F67 /* whell 10.png in Resources */,
+				2E78A2121A172DED00408F67 /* whell 13.png in Resources */,
+				2E78A21B1A172DED00408F67 /* whell 9.png in Resources */,
+				2E78A2021A172DED00408F67 /* land 2.png in Resources */,
+				2E78A1A81A172CC200408F67 /* LaunchScreen.xib in Resources */,
+				2E78A1FB1A172DED00408F67 /* Default copy.png in Resources */,
+				2E78A2181A172DED00408F67 /* whell 6.png in Resources */,
+				2E78A2081A172DED00408F67 /* Smile icon.png in Resources */,
+				2E78A21A1A172DED00408F67 /* whell 8.png in Resources */,
+				2E78A20D1A172DED00408F67 /* TextField copy.png in Resources */,
+				2E78A2091A172DED00408F67 /* star 1 copy.png in Resources */,
+				2E78A2001A172DED00408F67 /* imageIn.png in Resources */,
+				2E78A1FF1A172DED00408F67 /* front 2.png in Resources */,
+				2E78A20A1A172DED00408F67 /* star 1.png in Resources */,
+				2E78A1FD1A172DED00408F67 /* fly button.png in Resources */,
+				2E78A2031A172DED00408F67 /* Logo.png in Resources */,
+				2E78A2051A172DED00408F67 /* shadow 1.png in Resources */,
+				2E78A2171A172DED00408F67 /* whell 5.png in Resources */,
+				2E78A2191A172DED00408F67 /* whell 7.png in Resources */,
+				2E78A20B1A172DED00408F67 /* star 2.png in Resources */,
+				2E78A2161A172DED00408F67 /* whell 4.png in Resources */,
+				2E78A20C1A172DED00408F67 /* TextField 2.png in Resources */,
+				2E78A1A51A172CC200408F67 /* Images.xcassets in Resources */,
+				2E78A2011A172DED00408F67 /* land 1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E78A1AB1A172CC200408F67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E78A1901A172CC200408F67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E78A19A1A172CC200408F67 /* main.m in Sources */,
+				2E78A1D11A172D9B00408F67 /* HomeViewController.m in Sources */,
+				2E78A1D31A172D9B00408F67 /* SecurityViewController.m in Sources */,
+				2E78A1D21A172D9B00408F67 /* PlayVoiceViewController.m in Sources */,
+				2E78A1D61A172DA700408F67 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E78A1A91A172CC200408F67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E78A1B41A172CC200408F67 /* TalkControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E78A1AF1A172CC200408F67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E78A1931A172CC200408F67 /* TalkController */;
+			targetProxy = 2E78A1AE1A172CC200408F67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2E78A1A61A172CC200408F67 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E78A1A71A172CC200408F67 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E78A1B51A172CC200408F67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E78A1B61A172CC200408F67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E78A1B81A172CC200408F67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+				);
+				INFOPLIST_FILE = TalkController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2E78A1B91A172CC200408F67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+				);
+				INFOPLIST_FILE = TalkController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2E78A1BB1A172CC200408F67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TalkControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TalkController.app/TalkController";
+			};
+			name = Debug;
+		};
+		2E78A1BC1A172CC200408F67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TalkControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TalkController.app/TalkController";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E78A18F1A172CC200408F67 /* Build configuration list for PBXProject "TalkController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E78A1B51A172CC200408F67 /* Debug */,
+				2E78A1B61A172CC200408F67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E78A1B71A172CC200408F67 /* Build configuration list for PBXNativeTarget "TalkController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E78A1B81A172CC200408F67 /* Debug */,
+				2E78A1B91A172CC200408F67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2E78A1BA1A172CC200408F67 /* Build configuration list for PBXNativeTarget "TalkControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E78A1BB1A172CC200408F67 /* Debug */,
+				2E78A1BC1A172CC200408F67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E78A18C1A172CC200408F67 /* Project object */;
+}
